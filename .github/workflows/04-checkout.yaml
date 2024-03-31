@@ -1,4 +1,4 @@
-name: Checkout
+name: 04 - Checkout
 on: [workflow_dispatch]
 
 jobs:
