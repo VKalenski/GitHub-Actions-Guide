@@ -1,5 +1,7 @@
 name: Matrix
-on: [workflow_dispatch]
+
+on:
+  workflow_dispatch:
 
 #------- ORIGINAL --------#
 # X {os: ubuntu-latest, node-version: 14, is-ubuntu: true, experimental: false}

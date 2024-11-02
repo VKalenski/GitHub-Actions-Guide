@@ -1,9 +1,12 @@
 name: 03 - Working Dirs & Shells
-on: [workflow_dispatch]
+
+on:
+  workflow_dispatch:
 defaults:
   run:
     shell: bash
     # working-directory: /de/ed
+
 jobs:
   display-wd-info:
     runs-on: ubuntu-latest

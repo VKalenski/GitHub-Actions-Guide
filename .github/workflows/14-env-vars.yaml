@@ -1,5 +1,7 @@
 name: Environment Variables
-on: [workflow_dispatch]
+
+on:
+  workflow_dispatch:
 
 env:
   WF_LEVEL_ENV: Available to all jobs

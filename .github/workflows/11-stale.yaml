@@ -1,4 +1,5 @@
 name: 11 - Stale Issues & PRs
+
 on:
   schedule:
     - cron: "0 14 * * *"
