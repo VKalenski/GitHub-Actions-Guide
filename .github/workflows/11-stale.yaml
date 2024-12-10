@@ -2,8 +2,8 @@ name: 11 - Stale Issues & PRs
 
 on:
   schedule:
-    - cron: "0 14 * * *"
-    - cron: "0/5 * * * *" # JUST FOR TESTING
+    # - cron: "0 14 * * *"
+    # - cron: "0/5 * * * *" # JUST FOR TESTING
 
 jobs:
   stale:
